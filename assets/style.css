@@ -1,0 +1,276 @@
+header {
+  background-color: #ffc017;
+  border-bottom: solid black 1px;
+  font-family: "roboto", sans-serif;
+  position: sticky;
+  top: 0;
+  height: 100%;
+  z-index: 999;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  gap: 30px;
+}
+.bottone {
+  background-color: #191919;
+  color: white;
+  border-radius: 40px 40px;
+  padding-block: 10px;
+  display: flex;
+  width: 120px;
+  height: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.bottone1 {
+  background-color: #191919;
+  color: white;
+  border-radius: 40px 40px;
+  padding-block: 10px;
+  width: 150px;
+  font-family: "roboto", sans-serif;
+  font-size: 16px;
+}
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin-inline: auto;
+  padding-block: 20px;
+}
+.h1 {
+  font-family: "Roboto", sans-serif;
+}
+
+.hero {
+  display: flex;
+  background-color: #ffc017;
+  justify-content: space-between;
+  border-bottom: solid black 1px;
+  font-family: roboto, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  font-size: 22px;
+  font-weight: 400;
+  margin-left: 10%;
+  width: 44%;
+  justify-content: center;
+}
+#soloSvg text {
+  transition: opacity 0.5s ease;
+  opacity: 1;
+}
+
+.container2 h1 {
+  font-family: "Roboto", san-serif;
+  font-weight: 500;
+  font-size: 110px;
+  padding-bottom: 30px;
+}
+
+.container2 p {
+  padding-bottom: 30px;
+}
+.treding {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  margin-top: 3.5rem;
+  margin-bottom: -25px;
+  font-family: "Roboto", sans-serif;
+}
+.treding h4 {
+  margin-left: 0.8em;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.container3 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-inline: auto;
+  padding-top: 3rem;
+}
+
+.card {
+  display: flex;
+  width: 33.333%;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 3rem;
+}
+
+.card .number {
+  display: flex;
+  font-size: 2rem;
+  font-weight: 900;
+  opacity: 0.3;
+  margin-right: 12px;
+}
+
+.immagine {
+  border-radius: 20px 20px;
+  margin-inline-end: 9px;
+}
+.card h3 {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+}
+.card h4 {
+  padding-block: 12px;
+  font-family: roboto, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.card p {
+  opacity: 0.6;
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+}
+
+.base {
+  display: flex;
+  align-content: center;
+}
+
+footer {
+  display: flex;
+  gap: 70px;
+  padding-top: 4rem;
+}
+
+.container4 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  width: 70%;
+}
+
+.verticale {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1.5rem;
+}
+
+.texture {
+  display: flex;
+  flex-direction: column;
+}
+.immagine1 {
+  margin-left: 4rem;
+  display: flex;
+  height: 190px;
+}
+
+.immagineq {
+  border-radius: 10px 10px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10%;
+}
+
+footer h3 {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "roboto", sans-serif;
+}
+
+footer h4 {
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+footer h5 {
+  font-family: roboto, sans-serif;
+  opacity: 0.5;
+  padding-bottom: 40px;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+footer p {
+  display: flex;
+  font-family: "roboto", sans-serif;
+  opacity: 0.5;
+  font-weight: 500;
+  font-size: 17px;
+}
+.underText {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.insider {
+  display: flex;
+  align-items: center;
+}
+.faker {
+  border: #ebebeb;
+  width: fit-content;
+  padding: 4px;
+  padding-inline: 10px;
+  border-radius: 15px;
+  background-color: #d9d9d9;
+  height: 22px;
+  font-family: "roboto", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  color: black;
+  opacity: 0.4;
+  margin: 0 8px;
+}
+.info {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.info h3 {
+  font-family: "roboto", sans-serif;
+  font-size: 22px;
+  padding-bottom: 1rem;
+  font-weight: 900;
+}
+.info div {
+  width: 66%;
+}
+.info button {
+  background-color: transparent;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  opacity: 0.5;
+  border: solid black 0.1px;
+  height: 42px;
+  border-radius: 4px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+hr {
+  opacity: 0.1;
+  width: 100%;
+}
+footer hr {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
